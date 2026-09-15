@@ -139,3 +139,11 @@ The public EC2 instance was used as a bastion/jump host to securely access the p
 This avoids exposing the private EC2 instance directly to the internet.
 
 ![SSH to Private EC2](screenshots/11-ssh-private.jpg)
+
+## CloudWatch Monitoring
+
+CloudWatch was used to monitor the EC2 instances through the `CPUUtilization` metric.
+
+The graph shows CPU utilisation data collected from the EC2 instances over time.
+
+![CloudWatch Monitoring](screenshots/14-cloudwatch.jpg)
