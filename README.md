@@ -132,10 +132,3 @@ The private EC2 instance successfully accessed the internet using:
 ```bash
 curl -4 https://example.com
 
-## Bastion Host
-
-The public EC2 instance was used as a bastion/jump host to securely access the private EC2 instance.
-
-This avoids exposing the private EC2 instance directly to the internet.
-
-![SSH to Private EC2](screenshots/11-ssh-private.jpg)
